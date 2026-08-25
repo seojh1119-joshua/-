@@ -5,7 +5,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-페이지 설정
+#페이지 설정
 st.set_page_config(page_title="당직표 관리 시스템", layout="wide")
 st.title("숙직 당직표 관리 앱 (Excel 연동)")
 
