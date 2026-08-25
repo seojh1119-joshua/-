@@ -1,3 +1,10 @@
+import streamlit as st
+
+# 자동 번역 충돌 방지 태그 삽입
+st.markdown(
+    '<meta name="google" content="notranslate">', unsafe_allow_html=True
+)
+
 import calendar
 from datetime import date, timedelta
 from io import BytesIO
